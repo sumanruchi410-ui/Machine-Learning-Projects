@@ -87,12 +87,4 @@ The project includes:
 - SHAP
 - Joblib
 
-### Project Files
-
-```text
-06_Customer_Churn_Prediction/
-│
-├── customer_churn.py
-├── requirements.txt
-└── README.md
 
