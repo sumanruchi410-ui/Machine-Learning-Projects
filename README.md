@@ -1,38 +1,98 @@
 # Machine Learning Projects
 
-A collection of beginner-friendly Machine Learning projects built using Python.
+A collection of machine learning projects implemented using Python. 
+These projects cover different machine learning algorithms, datasets, 
+data preprocessing techniques, model evaluation methods, and data visualization.
 
 ## Projects
 
 ### 1. Handwritten Digit Classification
 - Algorithm: K-Nearest Neighbors (KNN)
-- Classifies handwritten digits.
+- Dataset: Handwritten digits dataset
+- Concepts: Classification, model training, prediction, evaluation
 
 ### 2. House Price Prediction
 - Algorithm: Linear Regression
-- Predicts house prices using area and number of bedrooms.
+- Dataset: House price dataset
+- Concepts: Regression, feature selection, prediction, model evaluation
 
 ### 3. Titanic Survival Prediction
 - Algorithm: Logistic Regression
-- Predicts whether a passenger may have survived.
+- Dataset: Titanic dataset
+- Concepts: Classification, data preprocessing, categorical encoding, prediction
 
 ### 4. World Happiness Prediction
 - Algorithm: Linear Regression
-- Predicts happiness scores using different factors.
+- Dataset: World Happiness dataset
+- Concepts: Regression, data analysis, visualization, prediction
 
-### 5. Spotify Song Popularity Prediction
+### 5. Spotify Song Popularity Analysis
 - Algorithm: Linear Regression
-- Predicts song popularity using audio features.
+- Dataset: Spotify song dataset
+- Concepts: Data analysis, feature selection, regression, visualization
 
-## Technologies Used
+### 6. Customer Churn Prediction
+- Algorithm: Random Forest Classifier
+- Dataset: Telco Customer Churn dataset
+- Concepts:
+  - Data preprocessing
+  - Missing value handling
+  - Categorical data encoding
+  - Train-test split
+  - Class imbalance handling
+  - Model evaluation
+  - Feature importance
+  - SHAP analysis
+
+## Customer Churn Prediction
+
+This project predicts whether a customer is likely to leave a telecom service using machine learning.
+
+### Dataset
+
+The project uses the **Telco Customer Churn dataset**.
+
+The dataset contains customer information such as:
+
+- Tenure
+- Monthly charges
+- Contract type
+- Internet service
+- Payment method
+- Other customer details
+
+### Machine Learning Model
+
+A **Random Forest Classifier** is used to predict customer churn.
+
+The project includes:
+
+- Data preprocessing
+- Missing value handling
+- Categorical data encoding
+- Train-test split
+- Class imbalance handling
+- Model training
+- Model evaluation
+- Feature importance
+- SHAP analysis
+
+### Technologies Used
 
 - Python
-- NumPy
 - Pandas
-- Matplotlib
+- NumPy
 - Scikit-learn
-- Seaborn
+- Matplotlib
+- SHAP
+- Joblib
 
-## Author
+### Project Files
 
-Ruchi Suman
+```text
+06_Customer_Churn_Prediction/
+│
+├── customer_churn.py
+├── requirements.txt
+└── README.md
+
